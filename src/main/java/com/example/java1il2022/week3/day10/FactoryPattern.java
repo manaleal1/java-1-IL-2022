@@ -4,7 +4,7 @@ package com.example.java1il2022.week3.day10;
  *  why do we use factory?
  *
  */
-public class Factory {
+public class FactoryPattern {
     public static StuService getStuService() {
         return new StuServiceImpl1();
     }

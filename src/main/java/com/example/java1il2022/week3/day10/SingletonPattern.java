@@ -1,6 +1,11 @@
 package com.example.java1il2022.week3.day10;
 
 import java.io.Serializable;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Stream;
 
 /**
  *  what is singleton?
@@ -53,7 +58,7 @@ enum Car {
 }
 
 class EnumTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         System.out.println(Car.BMW == Car.BMW);
     }
 }

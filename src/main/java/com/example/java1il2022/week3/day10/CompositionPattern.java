@@ -7,7 +7,7 @@ package com.example.java1il2022.week3.day10;
  *        /   \
  *      O      O
  */
-public class Composition {
+public class CompositionPattern {
 
 }
 
