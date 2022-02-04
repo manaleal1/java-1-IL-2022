@@ -37,7 +37,7 @@ public class JdbcExample {
             conn.setAutoCommit(false);
             //STEP 4: Execute a query
             System.out.println("Creating statement...");
-            String sql = "SELECT .... first, last, age FROM Employees";
+            String sql = "SELECT first_name, last_name, age FROM Employees WHERE x = 'ab' or true;";
             stmt = conn.prepareStatement(sql);
             ResultSet rs = stmt.executeQuery();
 
